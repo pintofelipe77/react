@@ -29,7 +29,14 @@
 
 </head>
 <body>
-    <h1>Felipe77</h1>
+    <h1>Galeria de fotos felipe77</h1>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <input type="text" id="imgUrl" placeholder="URL de la imagen">
+        <input type="text" id="footImg" placeholder="Pie de imagen">
+        <button onclick="addImg">Agregar Imagen </button>
+    </div>
+
 
     <div class="container">
 
@@ -52,5 +59,18 @@
         
         
     </div>
+
+    <script>
+
+        function addImg(){
+
+            var url = document.getElementById("imgUrl").value
+            var pieImg = document.getElementById("pieImg").value
+
+        }
+
+    </script>
+
+
 </body>
 </html>
